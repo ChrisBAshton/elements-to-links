@@ -1,5 +1,4 @@
 # Elements to Links
-=====================
 
 JavaScript library that scans the page for header tags and converts them to links on the fly, so that people can link to relevant content on your long page more easily. Works a bit like GitHub's markdown headers being automatically linked.
 
