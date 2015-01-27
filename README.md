@@ -4,6 +4,19 @@ JavaScript library that scans the page for header tags and converts them to link
 
 Need to share something more specific than just a section of a page? Check out one of my other projects: [http://reff.it](reff.it).
 
+## So what does it do?
+
+Say you have a page like this:
+
+```html
+<h2>My Heading</h2>
+<p>Some text</p>
+```
+
+By default, this library will make the header linkable, like so:
+
+`yoursite.com/your-page.html#MyHeading`
+
 ## How to use
 
 elements-to-links supports CommonJS, AMD, RequireJS, etc, but defaults to the global scope if these don't exist in your project. The most simple use case is to just include the script in your page, i.e.
