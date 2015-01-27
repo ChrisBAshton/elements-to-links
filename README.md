@@ -24,11 +24,11 @@ ElementsToLinks.convert({
 });
 ```
 
-## Options
+Which options can you pass? Read on...
 
-Not many thus far.
+### Options
 
-### selector
+#### selector
 
 Pass a comma-separated selector for the elements you wish to convert to links, e.g. 'h1, h2, table, ul, .my-class'
 
